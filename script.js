@@ -2,7 +2,10 @@ function printTable() {
     let number;
     let result = "";
 
-    number = Number(document.getElementById("num").value);
+    number = document.getElementById("num").value;
+    if(number == ""){
+        return;
+    }
 
     for(let i = 1; i<= 10; i++){
       result = result + " <p> "+number + " * " + i + " = " + number * i+"</p>";
@@ -13,5 +16,5 @@ function printTable() {
 
 function erase_Text() {
     document.getElementById("num").value = "";
-    
+    document.getElementsByClassName("answer")
   }
