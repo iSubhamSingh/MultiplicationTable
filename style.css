@@ -8,60 +8,25 @@ body {
   margin: 0;
   width: 100vw;
   height: 100vh;
-  background: #ecf0f3;
+  background: #eef0f1;
   display: flex;
   align-items: center;
   text-align: center;
   justify-content: center;
   place-items: center;
-  overflow: hidden;
-  font-family: poppins;
+  
 }
 
 .container {
   position: relative;
-  width: 350px;
+  width: 355px;
   height: 630px;
-  padding: 40px;
+  padding: 45px;
   box-sizing: border-box;
   background: #ecf0f3;
-  box-shadow: 14px 14px 20px #cbced1, -14px -14px 20px white;
-  border-radius: 18px;
+  box-shadow: 15px 15px 22px #cbced1, -20px -20px 24px white;
+  border-radius: 100px; 
 }
-
-.logo {
-  height: 100px;
-  width: 100px;
-  background: url("https://thumbs.dreamstime.com/z/plus-sign-icon-neon-style-can-be-used-web-logo-mobile-app-ui-ux-black-background-146965637.jpg");
-  background-size: 104px;
-  margin: auto;
-  border-radius: 50%;
-  box-sizing: border-box;
-  box-shadow: 7px 7px 10px #cbced1, -7px -7px 10px white;
-}
-
-
-
-.inputs {
-  text-align: left;
-  margin-top: 30px;
-}
-
-
-label, input, button {
-  display: block;
-  width: 100%;
-  padding: 0;
-  border: none;
-  outline: none;
-  box-sizing: border-box;
-}
-
-label {
-  margin-bottom: 10px;
-  margin-top: 15px;
-}
-
 
 
 input {
@@ -74,19 +39,35 @@ input {
   box-shadow: inset 6px 6px 6px #cbced1, inset -6px -6px 6px white;
 }
 
+label{
+    border: 1px solid blue;
+    border-radius: 10px;
+    padding: 5px;
+    background-color: #3434e5e0;
+    color: white;
+}
+
 button {
   color: white;
   margin-top: 25px;
+  margin-right: 20px;
+  padding: 10px;
   background: #3434e5e0;
   height: 40px;
   border-radius: 20px;
   cursor: pointer;
-  font-weight: 900;
   box-shadow: 6px 6px 6px #cbced1, -6px -6px 6px white;
-  transition: 0.5s;
+}
+
+#result{
+    border: 0.5px solid rgb(50, 25, 194);
+    border-radius: 54px;
+    height: 370px;
+    width: 250px;
+    margin-top: 20px;
+    margin-left: 8px;
 }
 
 button:hover {
   box-shadow: none;
 }
-
