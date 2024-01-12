@@ -16,5 +16,5 @@ function printTable() {
 
 function erase_Text() {
     document.getElementById("num").value = "";
-    document.getElementsByClassName("answer")
+    document.getElementsByClassName("answer").value = "";
   }
