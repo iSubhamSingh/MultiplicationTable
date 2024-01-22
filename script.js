@@ -3,7 +3,7 @@ function printTable() {
     let result = "";
 
     number = document.getElementById("num").value;
-    if(number == ""){
+    if(isNaN(number) ){
         return;
     }
 
@@ -16,5 +16,5 @@ function printTable() {
 
 function erase_Text() {
     document.getElementById("num").value = "";
-    document.getElementsByClassName("answer").value = "";
+    document.getElementById("result").innerHTML = "";
   }
