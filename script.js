@@ -3,7 +3,7 @@ function printTable() {
     let result = "";
 
     number = document.getElementById("num").value;
-    if(isNaN(number) ){
+    if(isNaN(number) || number == null ){
         return;
     }
 
