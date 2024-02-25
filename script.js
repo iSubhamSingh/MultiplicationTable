@@ -4,6 +4,7 @@ function printTable() {
 
     number = document.getElementById("num").value;
     if(isNaN(number) || number == null ){
+        erase_Text();
         return;
     }
 
